@@ -4,6 +4,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* ------------------ About ------------------ */
 header {
   width: 100%;
   padding: 30px;
@@ -112,4 +113,101 @@ footer {
   text-align: center;
   border-top: 8px solid #4aaaa5;
   /* padding-top: 0; */
+}
+
+/* -------------- Portfolio --------------- */
+/* 
+.portfolio-section {
+  max-width: 650px;
+  margin: 140px 229px;
+  padding: 10px;
+  position: absolute;
+  background-color: #fff;
+} */
+
+.container {
+  max-width: 650px;
+  margin: 140px 229px;
+  padding: 20px;
+  /* padding-right: 0; */
+  /* position: absolute; */
+  float: left;
+  background-color: #fff;
+  flex: none;
+  /* margin: 0 auto; */
+}
+
+#heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.9em;
+  color: #4aaaa5;
+  padding: 20px;
+  border-bottom: 3px solid #ddd;
+  font-weight: 900;
+}
+.projects img {
+  margin-left: 35px;
+  margin-top: 40px;
+  width: 275px;
+  height: 205px;
+}
+
+.projects {
+  display: inline;
+  float: left;
+}
+
+#connect {
+  margin-top: 140px;
+  margin-left: -120px;
+  flex: none;
+}
+
+.portfolio-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.projects h1 {
+  position: absolute;
+  background-color: #4aaaa5;
+  bottom: 20px;
+  width: 69.6%;
+  padding: 20px 30px;
+  margin: 0 auto;
+  margin-left: 34.8px;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.projects {
+  opacity: 0.8;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  gap: 0.7em;
+  padding: 20px;
+  font-size: 20px;
+}
+
+input,
+textarea {
+  border: 0.3px solid #ccc;
+  padding: 8px;
+}
+
+button {
+  width: 20%;
+  color: #fff;
+  font-size: 1em;
+  text-transform: capitalize;
+  border: none;
+  background-color: #4aaaa5;
+  padding: 10px 20px;
 }
